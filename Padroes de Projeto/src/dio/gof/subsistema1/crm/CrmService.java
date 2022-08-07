@@ -1,0 +1,17 @@
+package dio.gof.subsistema1.crm;
+
+public class CrmService {
+
+
+    private CrmService() {
+        super();
+    }
+
+    public static void GravarCliente (String nome, String cep, String cidade, String estado ){
+        System.out.println("Cliente salvo no CRM");
+    }
+
+
+
+
+}
